@@ -13,11 +13,11 @@ Nesta parte, vamos criar um usuário com permissões de administrador pelo AWS C
 ![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-01.png)
 
 
-1.4. Defina o nome do usuário, escolhendo o tipo de acesso. *Programmatic Access*, para permitir utilização do CLI, ou *AWS Management Console Access*, para permitir login e acesso pelo console da AWS. Clique em **Next: Permissions**.
+1.4. Defina o nome do usuário, e na sequência escolha o tipo de acesso: *Programmatic Access*, para permitir utilização do CLI, ou *AWS Management Console Access*, para permitir login e acesso pelo console da AWS (para esse lab qualquer opção pode ser utilizada). Clique em **Next: Permissions**.
 
 ![Image 02](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-02.png)
 
-1.5. Na parte de grupos seria onde incluímos este usuário em algum grupo, mas vamos abordar a parte de grupos em outra parte deste tutorial.
+1.5. Na parte de grupos seria onde iríamos incluir este usuário em algum grupo, mas vamos abordar a parte de grupos em outro momento neste tutorial.
 
 1.6. Selecione a aba "Attach existing policies directly" escolha a permissão que esse usuário precisa. Neste tutorial, vamos escolher **AdminstratorAccess** (na prática, tenha muita atenção ao utilizar esse tipo de permissão). Clique em **Next: Tags**.
 1.7. Nesta parte, podemos definir tags para facilitar o gerenciamento. Para este tutorial, não vamos usar tags. Clique em **Next: Review** e, por fim, em **Create User**.
